@@ -1,0 +1,75 @@
+body {
+	background-image: url(images/rrrrrswirlsalloverxmasredrev_highres.png);
+	background-repeat: repeat-x repeat-y;
+}
+
+h1 {
+	color: #A01E13;
+}
+
+nav {
+	background-color: #A01E13;
+}
+
+nav ul {
+	text-align: center;
+	padding: 2px;
+}
+
+nav ul li {
+	display: inline;
+	text-transform: uppercase;
+	border: 1px red solid;
+	background-color: white;
+	margin: 50px;
+	padding: 4px 20px;
+	font-size: 12px;
+}
+
+nav ul li a:link, a:visited {
+	color: #A01E13;
+	text-decoration: none;
+}
+
+nav ul li a:hover, a:active {
+    color: red;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	color: black;
+	line-height: 1.5em;
+}
+
+/* DIVS */
+
+#container {
+	width: 800px;
+	margin: 0 auto 0 auto;
+	background-color: white;
+}
+
+#main {
+	padding: 20px 20px 20px 20px;
+	border-style: solid;
+}
+
+#project {
+	padding: 20px 20px 20px 20px;
+	border: 1px red solid;
+	margin-top: 10px;
+}
+
+/* CLASSES */
+
+.leftFloat {
+	float: left;
+	width: 300px;
+	margin: 20px;
+}
+
+.rightFloat {
+	float: right;
+	width: 300px;
+	margin: 20px;
+}
