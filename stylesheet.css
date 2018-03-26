@@ -7,6 +7,16 @@ h1 {
 	color: #A01E13;
 }
 
+a:link, a:visited {
+	color: #A01E13;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+    color: red;
+    text-decoration: underline;
+}
+
 nav {
 	background-color: #A01E13;
 }
@@ -58,6 +68,10 @@ body {
 	padding: 20px 20px 20px 20px;
 	border: 1px red solid;
 	margin-top: 10px;
+}
+
+#info {
+	margin-bottom: 250px;
 }
 
 /* CLASSES */
